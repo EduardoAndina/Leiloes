@@ -1,9 +1,10 @@
 # Leilões 
-Projeto Java desenvolvido durante a unidade curricular de Versionamento de Software do curso Técnico de Desenvolvimento de Sistemas do Senac EAD.
+
+Projeto Java feito com o objetivo de simular o funcionamento de um sistema para uma casa de leilões.
 
 ## Objetivo do software
 
-Realizar o cadastro de itens de uma casa de leilões.
+Este sistema tem como objetivo realizar o cadastro, edição e exclusão de produtos para uma casa de leilões. 
 
 ## Funcionalidades do sistema
 
