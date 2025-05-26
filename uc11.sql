@@ -41,6 +41,8 @@ CREATE TABLE `produtos` (
 -- Extraindo dados da tabela `produtos`
 --
 
+SELECT * FROM produtos;
+
 INSERT INTO `produtos` (`id`, `nome`, `valor`, `status`) VALUES
 (2, 'PS4', 1500, 'Vendido'),
 (3, 'Xbox 360', 800, 'Vendido'),
