@@ -62,6 +62,7 @@ public class listagemVIEW extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Lucida Fax", 0, 14)); // NOI18N
         jLabel2.setText("Vender Produto (ID)");
 
+        id_produto_venda.setEditable(false);
         jScrollPane2.setViewportView(id_produto_venda);
 
         btnVender.setText("Vender");
