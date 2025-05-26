@@ -140,7 +140,7 @@ public class listagemVIEW extends javax.swing.JFrame {
         int linhaSelecionada = listaProdutos.getSelectedRow();
 
         if (linhaSelecionada != -1) {
-            String status = listaProdutos.getValueAt(linhaSelecionada, 3).toString(); 
+            String status = listaProdutos.getValueAt(linhaSelecionada, 3).toString();
             if (status.equalsIgnoreCase("Vendido")) {
                 JOptionPane.showMessageDialog(null, "Este produto já foi vendido.");
                 return;
@@ -156,8 +156,8 @@ public class listagemVIEW extends javax.swing.JFrame {
     }//GEN-LAST:event_btnVenderActionPerformed
 
     private void btnVendasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVendasActionPerformed
-        //vendasVIEW vendas = new vendasVIEW(); 
-        //vendas.setVisible(true);
+        vendasVIEW vendas = new vendasVIEW();
+        vendas.setVisible(true);
     }//GEN-LAST:event_btnVendasActionPerformed
 
     private void btnVoltarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVoltarActionPerformed
